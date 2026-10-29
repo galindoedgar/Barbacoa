@@ -36,6 +36,8 @@ h1{font-size:clamp(2rem,9vw,2.6rem);line-height:1.02;font-weight:800}
 h2{font-size:1.25rem;font-weight:700}
 .eyebrow{font-size:.75rem;letter-spacing:.09em;text-transform:uppercase;font-weight:700;color:var(--maguey);margin:0 0 8px}
 .lead{margin:10px 0 0;color:var(--muted);max-width:46ch}
+.hero{aspect-ratio:3/2;max-width:100%;border-radius:18px;margin-bottom:18px;
+  background:url(fotos/portada.jpg) center/cover no-repeat,#2D5A4C}
 .facts{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0;padding:0;list-style:none}
 .facts li{background:var(--soft);border-radius:999px;padding:6px 12px;font-size:.85rem;font-weight:600}
 section{display:flex;flex-direction:column;gap:12px;min-width:0}
@@ -91,6 +93,7 @@ footer{color:var(--muted);font-size:.82rem;padding-bottom:16px}
 <body>
 <main class="wrap" id="app">
   <header>
+    <div class="hero" role="img" aria-label="Tacos de barbacoa con limón y salsas"></div>
     <p class="eyebrow" id="eyebrow">Pedidos a domicilio</p>
     <h1 id="negocio">Barbacoa a domicilio</h1>
     <p class="lead">Elige lo que quieres, el horario y tu colonia. Tu pedido queda registrado al momento.</p>
